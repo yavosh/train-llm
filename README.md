@@ -19,6 +19,23 @@ applied LLM system (RAG / agent).
 
 Planning complete. Implementation hasn't started yet.
 
+## Progress
+
+Task checkboxes live in the [implementation plan](docs/superpowers/plans/2026-04-18-markov-to-llm.md) — tick them there as you go. This table is a rollup.
+
+| Phase | Tasks | Status | Artifact |
+|---|---|---|---|
+| **Task 0 — Bootstrap** | uv env, deps, corpus, dirs | ⬜ not started | working Python env |
+| **Week 1 — Markov** | 1.1 notes · 1.2 dict model · 1.3 matrix model · 1.4 perplexity sweep · 1.5 checkpoint | ⬜ not started | `week1-markov/perplexity-vs-order.png` |
+| **Week 2 — Neural bridge** | 2.1 notes · 2.2 NumPy MLP · 2.3 PyTorch MLP · 2.4 embedding viz · 2.5 checkpoint | ⬜ not started | `week2-neural-bridge/mlp-loss.png` |
+| **Week 3 — Transformer** | 3.1 notes · 3.2 attention · 3.3 multi-head · 3.4 training · 3.5 checkpoint | ⬜ not started | trained GPT + `train-loss.png` |
+| **Week 4 — Shootout** | 4.1 harness · 4.2 blind rating · 4.3 retro + milestones · 4.4 final writeup | ⬜ not started | `week4-shootout/RESULTS.md` |
+| **Milestone B — Scale** | BPE tokenizer, larger corpus, bigger model | ⬜ queued | — |
+| **Milestone C — QLoRA** | fine-tune Qwen-0.5B on a task | ⬜ queued | — |
+| **Milestone D — Applied LLM** | RAG or simple agent | ⬜ queued | — |
+
+Legend: ⬜ not started · 🟡 in progress · ✅ done
+
 ## Documents
 
 - **Design spec** — [`docs/superpowers/specs/2026-04-18-markov-to-llm-design.md`](docs/superpowers/specs/2026-04-18-markov-to-llm-design.md)
