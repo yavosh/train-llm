@@ -31,7 +31,7 @@ fine-tuning, and applied-LLM milestones.
 train-llm/
 ├── README.md
 ├── docs/
-│   └── superpowers/specs/2026-04-18-markov-to-llm-design.md  (this file)
+│   └── plans/2026-04-18-markov-to-llm-design.md  (this file)
 ├── data/
 │   └── tiny-shakespeare.txt
 ├── week1-markov/

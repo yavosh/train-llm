@@ -8,7 +8,7 @@
 
 **Tech Stack:** Python 3.11+, NumPy, PyTorch 2.x (MPS backend), matplotlib, uv (env), Tiny Shakespeare dataset.
 
-**Spec:** `docs/superpowers/specs/2026-04-18-markov-to-llm-design.md`
+**Spec:** `docs/plans/2026-04-18-markov-to-llm-design.md`
 
 ---
 
@@ -18,13 +18,13 @@
 - Create: `README.md`, `.gitignore`, `pyproject.toml`, `data/README.md`
 - Create: `week1-markov/`, `week2-neural-bridge/`, `week3-transformer/`, `week4-shootout/`, `milestones/` (dirs with `.gitkeep`)
 
-- [ ] **Step 1: Install uv if not present**
+- [x] **Step 1: Install uv if not present**
 
 ```bash
 which uv || curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-- [ ] **Step 2: Initialize Python project**
+- [x] **Step 2: Initialize Python project**
 
 ```bash
 cd /Users/yavosh/Projects/yavosh/train-llm
@@ -33,7 +33,7 @@ uv add numpy matplotlib torch tiktoken jupyter
 uv add --dev pytest ruff
 ```
 
-- [ ] **Step 3: Add `.gitignore`**
+- [x] **Step 3: Add `.gitignore`**
 
 ```gitignore
 __pycache__/
