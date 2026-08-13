@@ -49,7 +49,7 @@ wandb/
 .DS_Store
 ```
 
-- [ ] **Step 4: Download Tiny Shakespeare**
+- [x] **Step 4: Download Tiny Shakespeare**
 
 ```bash
 mkdir -p data
@@ -57,7 +57,7 @@ curl -L https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshak
 wc -c data/tiny-shakespeare.txt  # expect ~1,115,394
 ```
 
-- [ ] **Step 5: Create week dirs**
+- [x] **Step 5: Create week dirs**
 
 ```bash
 for d in week1-markov week2-neural-bridge week3-transformer week4-shootout milestones; do
@@ -65,7 +65,7 @@ for d in week1-markov week2-neural-bridge week3-transformer week4-shootout miles
 done
 ```
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add .
