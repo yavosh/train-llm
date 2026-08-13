@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.pt
+*.ckpt
+data/*.txt
+!data/README.md
+runs/
+wandb/
+.DS_Store

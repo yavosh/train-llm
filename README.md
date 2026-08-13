@@ -17,15 +17,15 @@ applied LLM system (RAG / agent).
 
 ## Status
 
-Planning complete. Implementation hasn't started yet.
+Task 0 (bootstrap) in progress: uv env, dependencies, and `.gitignore` are done. Corpus download, week directories, and the bootstrap commit remain.
 
 ## Progress
 
-Task checkboxes live in the [implementation plan](docs/superpowers/plans/2026-04-18-markov-to-llm.md) — tick them there as you go. This table is a rollup.
+Task checkboxes live in the [implementation plan](docs/plans/2026-04-18-markov-to-llm.md) — tick them there as you go. This table is a rollup.
 
 | Phase | Tasks | Status | Artifact |
 |---|---|---|---|
-| **Task 0 — Bootstrap** | uv env, deps, corpus, dirs | ⬜ not started | working Python env |
+| **Task 0 — Bootstrap** | uv env, deps, corpus, dirs | 🟡 in progress | working Python env |
 | **Week 1 — Markov** | 1.1 notes · 1.2 dict model · 1.3 matrix model · 1.4 perplexity sweep · 1.5 checkpoint | ⬜ not started | `week1-markov/perplexity-vs-order.png` |
 | **Week 2 — Neural bridge** | 2.1 notes · 2.2 NumPy MLP · 2.3 PyTorch MLP · 2.4 embedding viz · 2.5 checkpoint | ⬜ not started | `week2-neural-bridge/mlp-loss.png` |
 | **Week 3 — Transformer** | 3.1 notes · 3.2 attention · 3.3 multi-head · 3.4 training · 3.5 checkpoint | ⬜ not started | trained GPT + `train-loss.png` |
@@ -38,8 +38,8 @@ Legend: ⬜ not started · 🟡 in progress · ✅ done
 
 ## Documents
 
-- **Design spec** — [`docs/superpowers/specs/2026-04-18-markov-to-llm-design.md`](docs/superpowers/specs/2026-04-18-markov-to-llm-design.md)
-- **Implementation plan** — [`docs/superpowers/plans/2026-04-18-markov-to-llm.md`](docs/superpowers/plans/2026-04-18-markov-to-llm.md)
+- **Design spec** — [`docs/plans/2026-04-18-markov-to-llm-design.md`](docs/plans/2026-04-18-markov-to-llm-design.md)
+- **Implementation plan** — [`docs/plans/2026-04-18-markov-to-llm.md`](docs/plans/2026-04-18-markov-to-llm.md)
 
 ## Planned layout
 
